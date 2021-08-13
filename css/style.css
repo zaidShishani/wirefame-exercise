@@ -1,90 +1,107 @@
 body {
-    position: relative;
-}
-
-header {
-    width: 100%;
-    height: 70px;
-    line-height: 70px;
-    background: gray;
-}
-header nav ul {
-    display: flex;
-    height: 70px;
-    margin-left: 28%;
-}
-header nav ul :hover:not(:nth-child(1)) {
-    background-color: rgb(75, 75, 75);
-}
-header nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-main {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-main article img{
-    margin-left: 22% ;
-}
-
-main section:first-child{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-main div {
-    display: flex;
-    margin-left: 22%;
-}
-main div :nth-child(2) {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-main section:nth-child(3)
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 50%;
+    font-family: Helvetica, sans-serif;
+    background: #FFF;
+  }
+  header {
+    background:#2c2b2b;
+    height: 100px;
+  }
+  
+  nav {
+    width: 960px;
+    margin: auto;
+  }
+  
+  nav img {
     float: left;
-}
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 90px;
+  }
+  
+  nav li {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    color: #bbbbbb;
+  }
 
-main section:last-child
-{
-    width: 50%;
-    height: 400px;
-    float: right;
-    margin-top: 30px;
-    padding-left: 30px;
-}
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  main div > div:first-child> {
+    margin-top: 25px;
+  }
+  
+  div img {
+    margin-top: 25px;
+  }
+  
+  div ul {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  div ul li{
+    display: inline-block;
+    margin-right: 25px;
+  }
+  ul:last-child {
+     margin: 0%;
+  }
 
-main button {
+  section {
+    margin-top: 25px;
+    margin-bottom: 255px;
+  }
+  
+  section img {
+    float: left;
+    margin-right: 25px;
+  }
+
+  
+  section div {
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 20px;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  section p {
+    padding-bottom: 20px;
+    overflow-y:scroll;
+    font-size: 24px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  
+  section button {
+    border: none;
     background: black;
+    padding: 8px 30px;
     color: white;
-    width: 190px;
-    height: 70px;
-}
+    font-weight: 700;
+    height: 40px;
+  }
+  section button:hover {
+    background: gray;
+    border: solid 1px black;
+    color: black;
+  }
 
-main article p {
-    width: 40%;
-    overflow-y: scroll;
-    
-}
 
-h3 {
-    font-size: 20px;
-    padding-bottom: 10px;
-    font-weight: bold;
-}
-
-footer
-{
+  footer {
     clear: both;
     width: 100%;
     height: 70px;
-    background: #ddd;
+    background: gray;
     bottom: 0;
-}
+  }
